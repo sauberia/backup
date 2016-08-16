@@ -26,7 +26,7 @@ group :production do
   # gem 'excon' - use version specified by fog
   gem 'unf' # for fog/AWS
   gem 'dropbox-sdk', '1.6.5'
-  gem 'net-ssh'
+  gem 'net-ssh', github: 'sauberia/net-ssh'
   gem 'net-scp'
   gem 'net-sftp'
   gem 'mail', '= 2.6.3' # patched
